@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bg-mains{
+  background-image: linear-gradient(rgba(19, 14, 12, 0.4), rgba(19, 14, 12, 0.4)), url(../public/bg1.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg1{
+  background-image: url(../public/logo_dark.jpg);
+  height: 53vh;
+  width: 18%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 2px 21px 50px 0 rgba(0, 0, 0, 0.64)
+}
+#bg2{
+  background-image: url(../public/home-bg1.jpg);
+  height: 53vh;
+  width: 18%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 21px 50px 0 rgba(0, 0, 0, 0.64);
+  transition: 0.6s;
+  text-align: center;
+}
+#bg3{
+  background-image: url(../public/home-bg2.jpg);
+  height: 53vh;
+  width: 18%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 21px 50px 0 rgba(0, 0, 0, 0.64);
+  transition: 0.6s;
+  text-align: center;
+}
+#bg4{
+  background-image: url(../public/home-bg3.jpg);
+  height: 53vh;
+  width: 18%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 21px 50px 0 rgba(0, 0, 0, 0.64);
+  transition: 0.6s;
+  text-align: center;
+}
+
+#bg4:hover{
+  box-shadow: 2px 21px 90px 0 rgba(116, 106, 106, 0.64);
+  background-position-x: -257px;
+  transition: 0.6s;
+}
+#bg3:hover{
+  box-shadow: 2px 21px 90px 0 rgba(116, 106, 106, 0.64);
+  background-position-x: -257px;
+  transition: 0.6s;
+}
+#bg2:hover{
+  box-shadow: 2px 21px 90px 0 rgba(116, 106, 106, 0.64);
+  background-position-x: -257px;
+  transition: 0.6s;
+}
+
+#bg-main2{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../public/bg2.jpg);
+  height: 36vh;
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#links{
+  padding: 6px 14px;
+  transition: 0.6s;
+}
+
+#footer{
+  background-image: linear-gradient(rgba(2, 2, 2, 0.61), rgba(3, 3, 3, 0.61)), url(../public/bg2.jpg);
+  height: 77vh;
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
